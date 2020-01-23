@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TAD</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="javascript.js"></script>
+
+</head>
+
+<body>
+  <div class="heading">
+    <h1>TAD</h1>
+    <h3 class="third">Tasty|Delicious|Assorted</h3>
+  </div>
+  <div class="navbar">
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="Bouqeuts.html">Bouqeuts</a>
+      </li>
+      <li>
+        <a href="Trays.html">Trays</a>
+      </li>
+      <li>
+        <a href="Boxes.html">Boxes</a>
+      </li>
+      <li>
+        <a href="Gallery.html">Gallery</a>
+      </li>
+    </ul>
+  </div>
+  <div class="traysintro">
+    <p>A wide range of customized plates where chocolates are offered and beautifully displayed. The flavor & the pleasures
+      are portrayed on a tray. The Tray as a serving platform are easy to hold, carry and frames your tableware perfectly
+      with your idea & flavors
+    </p>
+  </div>
+
+  <!-- Images used to open the lightbox -->
+
+  <div class="row">
+    <div class="column2">
+      <img src="images/trays/0ne.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column2">
+      <img src="images/trays/two.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column2">
+      <img src="images/trays/three.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column2">
+      <img src="images/trays/four.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+    <div class="column2">
+      <img src="images/trays/five.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+    <div class="column2">
+      <img src="images/trays/six.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+  </div>
+
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="images/Chocolate Trays/New folder/0ne.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/Chocolate Trays/New folder/two.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/Chocolate Trays/New folder/three.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/Chocolate Trays/New folder/four.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/Chocolate Trays/New folder/five.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/Chocolate Trays/New folder/six.jpg" style="width:100%">
+      </div>
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail image controls -->
+
+    </div>
+  </div>
+  <footer class="footer">
+    <h3>Contact Us</h3>
+    <h4>Prashant Powar No.+91 9768074648</h4>
+    <a href="https://www.facebook.com/TAD-Tasty-Assorted-Delicious-301871083621105/">
+      <img class="facebook" src="/Social/iconmonstr-facebook-3-96.png" alt="">
+    </a>
+
+    <a href="https://www.instagram.com/tastyassorteddelicious/">
+      <img class="instagram" src="/Social/iconmonstr-instagram-11-96.png" alt="">
+    </a>
+
+    <p>"Nothing is as alluring as a piece of chocolate you can't have."</p>
+
+  </footer>
+
+</body>
